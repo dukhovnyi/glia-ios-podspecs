@@ -12,6 +12,8 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '12.0'
     s.source_files       = 'GliaWidgets/**/*.swift'
     s.swift_version = '5.3'
+
+    s.resources = ['Resources/**/*.xcassets']
   
     s.dependency 'SalemoveSDK', '0.30.2'
     s.dependency 'PureLayout', '~>3.1'
